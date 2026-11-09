@@ -1,0 +1,15 @@
+[project]
+name = "skill-latency-balancer"
+version = "0.1.0"
+description = "Dynamic execution scheduling to minimize agentic skill response times"
+dependencies = [
+    "fastapi>=0.109.0",
+    "pydantic>=2.5.0",
+    "uvicorn>=0.27.0",
+    "jinja2>=3.1.3"
+]
+requires-python = ">=3.11"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
